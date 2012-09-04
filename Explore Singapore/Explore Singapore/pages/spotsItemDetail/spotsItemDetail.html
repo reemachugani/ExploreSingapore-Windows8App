@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Item page</title>
+    
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0.RC/css/ui-light.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0.RC/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0.RC/js/ui.js"></script>
+
+    <link href="/css/default.css" rel="stylesheet" />
+    <link href="/pages/spotsItemDetail/spotsItemDetail.css" rel="stylesheet" />
+
+
+
+    <script src="/js/data.js"></script>
+    <script src="/pages/spotsItemDetail/spotsItemDetail.js"></script>
+	
+
+</head>
+<body>
+    <!-- The content that will be loaded and displayed. -->
+    <div class="spotsItemDetailpage fragment">
+        <header aria-label="Header content" role="banner">
+            <button class="win-backbutton" aria-label="Back" disabled></button>
+            <h1 class="titlearea win-type-ellipsis">
+                <span class="pagetitle"></span>
+            </h1>
+        </header>
+        <div class="content" aria-label="Main content" role="main" style="background-color:#e4dcdc;">
+            <article>                   
+                <header>
+                    <h2 class="item-title" style="color: #e00a0a; font-weight:500;"></h2>
+                </header> 
+                
+                    <div>
+							<img class="item-image image1" src="#" />
+
+							<img class="item-image-small image2" src="#" />	&nbsp;						
+
+							<img class="item-image-small image3" src="#" />	
+                            					
+							<img class="item-image-small image4" src="#" /> &nbsp;
+
+							<img class="item-image-small image5" src="#" />
+					</div>		
+                <div class="details">    
+                <h2 class="topics">Venue Details:</h2>
+                    <br />
+                    <div id="phone_div"> 
+                        <img id="pic_phone" src="/images/phone1.png"/>&nbsp; &nbsp;
+                        <span class="item-phone"></span>
+                        <br />
+                        <br />
+                    </div>
+                    <div id="address_div"> 
+                        <img src="/images/marker.png"/>&nbsp; &nbsp;
+                        <span class="item-address"></span>
+                        <br />
+                        <br />
+                    </div>
+                    <div id="url_Div"> 
+                        <img id="pic_url" src="/images/globe.png"/>&nbsp; &nbsp;
+                        <span class="item-url"></span>
+                        <br />
+                        <br />
+                    </div>
+                    <!--<div> 
+                        <img src="images/phone1.png"/>
+                        <span class="item-distance from here"></span>
+                    </div>-->
+                    <div id="checkins_Div"> 
+                        <img id="pic_checkins" src="/images/conference.png"/>&nbsp; &nbsp;
+                        <span class="item-users-checked-in"></span>
+                        <br /><br />
+                    </div>
+
+                    <br />
+
+                    <h2 class="topics">Reviews & Tips</h2>
+                       <div id="tips_Div"> 
+                           <br />
+                        <img id="pic_tips" src="/images/thumbs_up.png"/>&nbsp; &nbsp;
+                        <span class="item-tip"></span>  
+                    
+   <!--                 <div>
+                    <iframe class="bingframe" src="http://www.bing.com/maps/" style="height:100%; width:33%;"></iframe>
+                    </div> -->
+                </div>
+
+                
+                </div>
+            </article>
+        </div>
+    </div>
+</body>
+</html>
